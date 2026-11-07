@@ -83,7 +83,7 @@ Validar o comportamento do endpoint de login do Supabase por meio de testes de c
 |---|---|---|
 | Supabase | Serviço online | Plataforma de autenticação e API |
 | Supabase Auth | Serviço gerenciado | Autenticação por e-mail e senha |
-| Postman | [Informar versão] | Envio e inspeção de requisições HTTP |
+| Postman | 12.35.5 | Envio e inspeção de requisições HTTP |
 | HTTP / REST | — | Comunicação com o endpoint de autenticação |
 | JSON | — | Formato dos dados enviados e recebidos |
 | Git / GitHub | [Se utilizado] | Armazenamento e versionamento dos arquivos |
@@ -96,24 +96,32 @@ Validar o comportamento do endpoint de login do Supabase por meio de testes de c
 Estrutura sugerida para a entrega (ajustar aos nomes reais dos arquivos):
 
 ```text
-projeto_testes_caixa_cinza/
-│
-├── postman/
-│   ├── Teste_de_Autenticacao.postman_collection.json
-│   └── Supabase_Teste.exemplo.postman_environment.json
-│
-├── prints/
-│   ├── 01_login_valido.png
-│   ├── 02_senha_incorreta.png
-│   ├── 03_usuario_inexistente.png
-│   ├── 04_campos_vazios.png
-│   └── 05_credenciais_invalidas.png
+Atividade_UX_UI/
 │
 ├── planilha/
-│   └── casos_de_teste.xlsx
+│   └── planilha_testes_caixa_cinza.xlsx
 │
-├── README.md
-└── .gitignore
+├── postman/
+│   └── Teste de Autenticação.postman_collection.json
+│
+├── prints/
+│   ├── Válido.png
+│   ├── Incorreta.png
+│   ├── Usuário_Inexistente.png
+│   ├── Campos_Vazios.png
+│   └── Credenciais_Inválidas.png
+│
+└── README.md
+```
+
+### Descrição dos arquivos
+
+- **planilha/**: contém a planilha com os cinco casos de teste, resultados esperados e resultados obtidos.
+- **postman/**: contém a Collection exportada do Postman, com as requisições utilizadas nos testes de autenticação.
+- **prints/**: contém as capturas de tela dos cinco cenários executados.
+- **README.md**: apresenta os objetivos, metodologia, configurações, resultados e evidências do projeto.
+
+A organização permite consultar os casos de teste, reproduzir as requisições e verificar as evidências documentadas.
 ```
 
 **Importante:** exporte apenas um ambiente de exemplo com valores fictícios ou vazios. Não publique o ambiente real com senha, tokens ou chaves secretas.
