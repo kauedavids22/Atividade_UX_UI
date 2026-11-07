@@ -169,23 +169,23 @@ Inclua as imagens nos caminhos abaixo, **ocultando tokens de acesso, tokens de a
 
 **CT01 — Login válido**
 
-![Login válido](Válido.png)
+![Login válido](Testes/Válido.png)
 
 **CT02 — Senha incorreta**
 
-![Senha incorreta](Incorreta.png)
+![Senha incorreta](Testes/Incorreta.png)
 
 **CT03 — Usuário inexistente**
 
-![Usuário inexistente](Usuário_Inexistente.png)
+![Usuário inexistente](Testes/Usuário_Inexistente.png)
 
 **CT04 — Campos vazios**
 
-![Campos vazios](Campos_Vazios.png)
+![Campos vazios](Testes/Campos_Vazios.png)
 
 **CT05 — Credenciais inválidas**
 
-![Credenciais inválidas](Credencias_Inválidas.png)
+![Credenciais inválidas](Testes/Credencias_Inválidas.png)
 
 ### 9.4 Dificuldades e Soluções
 
