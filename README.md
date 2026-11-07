@@ -177,7 +177,7 @@ Inclua as imagens nos caminhos abaixo, **ocultando tokens de acesso, tokens de a
 
 **CT03 — Usuário inexistente**
 
-![Usuário inexistente](Usuário_Inválido.png)
+![Usuário inexistente](Usuário_Inexistente.png)
 
 **CT04 — Campos vazios**
 
