@@ -208,12 +208,3 @@ Esses erros de configuração foram diferenciados dos resultados esperados nos c
 Os cinco cenários executados apresentaram os códigos HTTP e as mensagens esperadas para as entradas utilizadas. O teste positivo confirmou a autenticação com credenciais válidas; os testes negativos demonstraram a rejeição de credenciais incorretas ou ausentes.
 
 A atividade permitiu aplicar testes de caixa cinza, interpretar respostas de API, organizar evidências e compreender a importância de configurações seguras e documentação reproduzível. Os resultados são limitados aos cenários executados e não representam uma avaliação integral da segurança do Supabase.
-
----
-
-## 10. Cuidados de Segurança
-
-- Nunca incluir `sb_secret_...`, senhas reais ou tokens `access_token` e `refresh_token` no repositório.
-- Preferir variáveis locais e valores fictícios em arquivos compartilhados.
-- Revisar capturas de tela e arquivos exportados antes de enviá-los ao GitHub.
-- Se uma credencial real tiver sido exposta, alterá-la ou revogá-la conforme o tipo de credencial.
